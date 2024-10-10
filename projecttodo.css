@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700 */
+
+.alkatra{
+  font-family: "Alkatra", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+    background: linear-gradient(to Bottom,white,rgb(54, 182, 233));
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+
+}
+h1{
+    font-family: "Alkatra", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+    font-size: 64px;
+    
+}
+#theme{
+    margin-left: 0px;
+    padding: 15px 10px;
+    border: 1px solid rgb(88, 86, 86);
+    border-radius: 50%;
+}
+body.dark #theme{
+    margin-left: 0px;
+    padding: 15px 10px;
+    border: 1px solid rgb(88, 86, 86);
+    border-radius: 50%;
+    background-color: rgb(50, 50, 50);
+    color: #fff;
+}
+.themeCont{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    margin:2% 2%;
+}
+.container{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display:flex;
+    flex-direction: column;
+}
+.input{
+    margin-bottom: 50px;
+}
+input{
+    /* padding: 10px 20%; */    
+    font-size: 20px;
+    padding-left: 15px;
+    height: 40px;
+    width: 35%;
+    border-radius: 20px;
+    border: 1px solid rgb(54, 182, 233);
+    box-shadow: 0px 2px 5px black;
+
+    
+}
+.btn{
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(22, 185, 250);
+    box-shadow: 0px 2px 5px black;
+    color: rgb(4, 152, 221);
+    background-color: rgb(255, 255, 255);
+}
+.taskList{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.appndCont{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    /* border: 1px solid black; */
+    padding: 20px 0;
+    /* background-color: white; */
+}
+
+.appndUl{
+    display: flex;
+    justify-content: baseline;
+    text-align: start;
+    align-items: center;
+ border: 2px solid black;
+ border-radius:20px;
+ padding: 20px 50px;
+ background-color: white    ;
+}
+.appndLi{
+display: flex;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+.appndSpan{
+    margin: auto 20px auto 0;
+    font-size: 18px;
+    text-transform: capitalize;
+    /* margin-right: 20px; */
+}
+.appndBtnCon{
+
+    width: 20%;
+    display: flex;
+    align-items:center;
+    flex: 1 1 auto;
+    margin-left: auto;
+    /*margin-right: auto; */
+    /* border: 1px solid black; */
+}
+.appndBtn{
+     display: flex;
+    /*flex-grow: 1; */
+    padding: 0px 0px;
+    margin-left: auto;
+    border-radius: 50%;
+    border: 0px solid rgb(15, 13, 13);
+}
+.btnImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* border: 1px solid rgb(173, 166, 166); */
+}
+
+body.dark {
+    background: linear-gradient(to bottom, rgb(34, 34, 34), rgb(0, 0, 0));
+    color: white;
+}
+
+body.dark input,
+body.dark .btn {
+    background-color: rgb(50, 50, 50);
+    border: 1px solid rgb(100, 100, 100);
+    color: white;
+}
+
+body.dark .appndUl {
+    background-color: rgb(50, 50, 50);
+    border: 2px solid rgb(100, 100, 100);
+}
+
+body.dark .appndSpan {
+    color: white;
+}
+
+body.dark .btnImg {
+    border: 1px solid rgb(255, 255, 255);
+}
