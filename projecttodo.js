@@ -42,7 +42,9 @@ addSpan.textContent = ` ${inputText} `;
 // addBtn.textContent = `Clear`;
 
 addBtn.addEventListener('click',()=>{
+    if(confirm("Are You sure? ")){
     displayText.removeChild(addCont)
+    }
 })
 
 
